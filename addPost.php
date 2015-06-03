@@ -64,7 +64,7 @@ if($_POST)
     <form method="post">
     	<div class="inline"><p class="elem">Titulek:</p><input type="text" name="title" class="title bord"></div>
       <div class="inline"><p class="elem">Perex:</p><textarea name="perex" class="bord"></textarea></div>
-    	<div class="left"><p class="elem">Text:</p><textarea id="edit" name="text"></textarea>
+    	<div class="left"><p class="elem">Text:</p><textarea id="edit" name="text"></textarea></div>
     	<input type="submit" value="Odeslat" name="submit" class="addBut"><br>
       <?php 
         echo "<p class='zprava'>" . $zprava . "</p>";
