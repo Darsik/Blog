@@ -1,0 +1,454 @@
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+a:hover {
+	text-decoration: none;
+}
+.top {
+	background-color: #00414D;
+	width: 100%;
+	padding-top: 10px;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 10px;
+}
+.zarovnani {
+	text-align: center;
+	width: 100%;
+	vertical-align: top;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.inputAutor {
+	height: 40px;
+	color: black;
+	font-size: 18px;
+}
+.autori {
+	padding: 20px;
+	-moz-box-shadow:    inset  0  8px 8px -8px #000, 
+                        inset  0 -8px 8px -8px #000;
+    -webkit-box-shadow: inset  0  8px 8px -8px #000, 
+                        inset  0 -8px 8px -8px #000;
+     box-shadow:        inset  0  8px 8px -8px #000, 
+                        inset  0 -8px 8px -8px #000;
+    background-color: #E8E9E3;
+}
+hr {
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	border: none;
+}
+.topShadow {
+	-webkit-box-shadow: 0px 8px 14px -1px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 8px 14px -1px rgba(0,0,0,1);
+	box-shadow: 0px 8px 14px -1px rgba(0,0,0,1);
+}
+.bottomShadow {
+	-webkit-box-shadow: 0px -6px 14px -1px rgba(0,0,0,1);
+	-moz-box-shadow: 0px -6px 14px -1px rgba(0,0,0,1);
+	box-shadow: 0px -6px 14px -1px rgba(0,0,0,1);
+}
+.filtry {
+  height: 40px;
+  font-size: 20px;
+  font-family: helvetica;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #00414D;
+  color: white;
+  box-shadow: 0 1px 15px 0px #000;
+  border: none;
+  width: 150px;
+  display: inline-block;
+}
+.filtry p {
+	margin-top: 5px;
+}
+.top a {
+	display: block;
+}
+.next {
+	color: #006B6B;
+}
+.next:hover {
+	color: #006B6B;
+}
+.top h1 {
+	text-align: center;
+	margin: 20px;
+	margin-bottom: 10px;
+	font-size: 76px;
+	color: white;
+	padding: 0px;
+	font-weight: bold;
+	margin-top: 0px;
+}
+.ukazkaClanku
+{
+	height: 250px;
+	margin: 15px;
+	padding: 5px;
+	background-color: #F5F5F5;
+  	box-shadow: 0 1px 15px -3px #000;
+	padding-top: 20px;
+
+}
+.add {
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+	float: right;
+	margin-top: 3px;
+	clear: both;
+	margin-right: 15px;
+}
+.cross
+{
+	background-color: #F5F5F5;
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin-top: -45px;
+	margin-right: 5px;
+	font-size: 1.2em;
+	clear: both;
+}
+.heading {
+  white-space: nowrap;
+  max-width: 60%;
+  padding-left: 5px;
+  font-size: 26px;
+  overflow: hidden;
+  color: #006B6B;
+  text-overflow: ellipsis;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.text {
+  display: block;
+  display: -webkit-box;
+  max-width: 400px;
+  height: 125px;
+  margin: 0 auto;
+  font-size: 18px;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 10px;
+  margin-top: 20px;
+}
+.next {
+		list-style: none;
+	text-decoration: none;
+	float: right;
+	clear: both;
+	margin-right: 5px;
+	display: inline-block;
+}
+.author {
+	margin-left: 10px;
+	display: inline-block;
+}
+.crossx {
+	list-style: none;
+	text-decoration: none;
+	font-size: 26px;
+	color: #00414D;
+}
+.crossx:hover {
+	color: #00414D;
+}
+.cross span {
+	margin-left: 7px;
+	font-size: 1.1em;
+}
+.edit {
+	text-decoration: none;
+	list-style: none;
+	color: #00414D;
+	font-size: 16px;
+	float: right;
+	margin-right: 50px;
+	margin-top: -35px;
+}
+.edit:hover {
+	color: #00414D;
+}
+.komentAutor {
+	font-size: 18px;
+	color: black;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.komenty {
+	margin-top: 100px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.koment {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #A0E6EC;
+	padding: 10px;
+	box-shadow: 0 1px 15px -1px #000;
+}
+.addKoment {
+	width: 120px;
+	margin-bottom: 20px;
+}
+.top a {
+	float: right;
+	margin-bottom: 3px;
+	margin-right: 15px;
+	font-size: 30px;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	clear: both;
+}
+.autori {
+	display: none;
+}
+.crossKom {
+	background-color: #A0E6EC;
+	float: right;
+	margin-right: 5px;
+	font-size: 1.2em;
+	margin-top: -35px;
+}
+.crossKom a {
+		list-style: none;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+.info-bar {
+	background-color: #006B6B;
+	display: inline-block;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.info-bar a:hover {
+	color: white;
+}
+.posty {
+	clear: both;
+	width: 100%;
+}
+.komentText {
+	color: black;
+	text-align: left;
+}
+.komenty2 {
+	width: 90%;
+	margin: 0 auto;
+}
+.upravitPost form {
+	width: 90%;
+	margin: 0 auto;
+}
+textarea {
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+}
+.user {
+	color: white;
+	font-size: 26px;
+	margin-left: 10px;
+}
+.elem {
+	font-size: 22px;
+	margin-top: 20px;
+}
+.addBut {
+	width: 120px;
+}
+.nadpis {
+	text-align: center;
+	font-size: 32px;
+	color: #006B6B;
+}
+.obsahText {
+	text-align: justify;
+	margin: 15px;
+}
+.pridatKoment form {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+.pridatKoment form textarea {
+	height: 100px;
+	width: 100%;
+}
+.obsah {
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: #F5F5F5;
+	box-shadow: 0 1px 15px -3px #000;
+	padding: 10px;
+}
+.pridatKoment {
+	width: 100%;
+	margin: 0 auto;
+}
+.autor {
+	font-size: 18px;
+	color: #00414D;
+	margin-left: 15px;
+}
+.stranka {
+	margin-bottom: 30px;
+}
+.title {
+	width: 100%;
+	height: 50px;
+}
+.jmeno, .heslo, .email {
+	height: 30px;
+}
+.marg {
+	margin-top: 50px;
+}
+.log {
+	width: 250px;
+	margin: 0 auto;
+}
+.pridatPost form {
+	width: 90%;
+	margin: 0 auto;
+}
+.pridatPost {
+	padding-bottom: 20px;
+}
+.heading a {
+	color: #006B6B;
+}
+.bord {
+	border: 1px solid #006B6B;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+.inline, .left {
+	text-align: left;
+}
+.block {
+	text-align: left;
+}
+.block input {
+	width: 100%;
+}
+.chciLogin {
+	font-size: 18px;
+	width: 90%;
+	margin: 0 auto;
+}
+.chciLogin a {
+	text-decoration: none;
+	color: #006B6B;
+}
+input[type="submit"] {
+	height: 40px;
+	font-size: 20px;
+	font-family: helvetica;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float: right;
+	background-color: #00414D;
+	color: white;
+	box-shadow: 0 1px 15px 0px #000; 
+	border: none;
+}
+.zprava {
+	font-size: 24px;
+}
+
+@media (min-width: 385px) {
+	.ukazkaClanku {
+		width: 350px;
+		display: inline-block;
+		text-align: left;
+	}
+	.heading {
+		max-width: 75%;
+	}
+	.posty {
+		width: 90%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.next {
+		margin-right: 20px;
+	}
+}
+@media (min-width: 585px) {
+	.login {
+		margin-top: -70px;
+	}
+	.logout {
+		margin-top: -70px;
+	}
+	.register {
+		margin-top: -40px;
+	}
+	.back {
+		margin-top: -40px;
+	}
+}
+@media (min-width: 650px) {
+	.inline {
+		width: 49.3%;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.pridatKoment2 {
+		width: 90%;
+		margin: 0 auto;
+		text-align: left
+	}
+	.pridatKoment form {
+		width: 585px;
+		margin: 0px;
+	}
+	.chciLogin {
+		width: 100%;
+	}
+}
+@media (min-width: 850px) {
+	.inline {
+		width: 49.7%;
+	}
+}
+@media (min-width: 1110px) {
+	.obsah {
+		width: 1000px;
+	}
+	.pridatKoment2 {
+		width: 1000px;
+	}
+	.komenty2 {
+		width: 1000px;
+	}
+}
